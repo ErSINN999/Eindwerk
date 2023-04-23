@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aesthetic World</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    
+    <!-----------------------Navigatie---------------------->
+    <nav class="navbar">
+        <div id="logo" >
+            <a href="home">
+            <img id="aestheticswhite" src="AestheticsTransparant1.png"></a>
+        </div>
+        <ul id="navigatie">
+            <li><a href="home">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="training programmas">Training Programmas</a></li>
+            <li><a href="voeding">Voeding</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div id="spierfoto">
+        <div id="spiertext">
+            <div class="motivation-quotes">
+                <h1 id="mot1">“It always seems</h1>
+                <h1 id="mot2">impossible </h1>
+                <h1 id="mot3">until it’s done.”</h1>
+            </div>
+            <div id="button">
+                <input id="start" type="button" value="START">
+            </div>
+        </div>
+        
+    </div>
+   
+
+
+    <!--Footer-->
+    <footer>
+        <div id="top-page">
+            <img id="logofooter" src="AestheticsBLACK.png" alt="">
+            <h2 id="footertext1">Over Aesthetic World</h2>
+            <ul id="OverAestheticWorld">
+                <li>
+                <a
+                  href="home.html"
+                  class="link-text-list-menu">
+                  Home
+                </a>
+              </li><li>
+                <a
+                  href="About.html"
+                  class="link-text-list-menu">
+                  About
+                </a>
+              </li><li>
+                <a
+                  href=""
+                  class="link-text-list-menu">
+                  Traning Programs
+                </a>
+                </li><li>
+                    <a href=""
+                    class="link-text-list-menu">
+                        Voeding
+                    </a>
+                </li><li>
+                    <a href="Contact.html"
+                    class="link-text-list-menu">
+                        Contact
+                    </a>
+            </ul>
+            <h2 id="footertext2"></h2>
+                    
+
+        </div>
+        <div id="bottom-page">
+
+        </div>
+        
+    </footer>
+
+    <script>
+        document.onreadystatechange = function() {
+    let lastScrollPosition = 0;
+    const navbar = document.querySelector('.navbar');
+    window.addEventListener('scroll', function(e) {
+     lastScrollPosition = window.scrollY;
+    
+     if (lastScrollPosition > 100)
+         navbar.classList.add('navbar-donker');
+        else
+         navbar.classList.remove('navbar-donker');
+     });
+}
+    </script>
+
+    
+    
+</body>
+</html>
