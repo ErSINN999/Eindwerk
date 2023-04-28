@@ -121,7 +121,7 @@ div#gegevens-blok
     padding-right: 5cm;
     margin-top: 85px;
     color: black;
-    width: 100%;
+    width: 100% auto;
     margin: 0;
     
 }
