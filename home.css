@@ -1,0 +1,242 @@
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: auto; 
+    
+    font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;  
+}
+
+/*-------------------------------------------HOME PAGE---------------------------------------*/
+
+/*------------------Navigatie---------------*/
+
+nav{
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    transition: top 0.3s;
+    
+
+
+}
+.navbar {
+    background-color: white;
+    transition-property: background-color, color;
+    transition-duration: 0.5s;
+  }
+  
+.navbar-donker {
+    background-color: transparent;
+    visibility: hidden ;
+    transition: all 0.5s ease-in;
+
+  }
+  
+  .navbar-collapse, .navbar-nav, .nav-item {
+    color: inherit;
+  }
+nav ul{
+    position: relative;
+    display: flex;
+    float: right;
+    padding-left: 18cm;
+}
+
+nav ul li#nav-li{
+    list-style: none;
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+
+nav ul li#nav-li a{
+    position: relative;
+    color: black;
+    letter-spacing: 2px;
+    text-decoration: none;
+    margin: 30px;
+    float: right;
+    display: flex;
+    text-align: right;
+    
+    font-size: 17px;
+}
+nav ul li#nav-li a::before
+{
+  background: orange;
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: 0.6s ease-in-out;
+  z-index: -1;
+}
+nav ul li#nav-li a:hover::before {
+    transform: scaleX(1);
+    transform-origin: center;
+  }
+#aestheticswhite
+{
+    height: 150px;
+    margin-left: 1cm;
+}
+
+/*------------------Home Page Text---------------*/
+div#spierfoto
+{
+    background-image: url(spier.jpg);
+    background-repeat: no-repeat; 
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+    
+}
+div#spiertext   
+{
+    padding-top: 15%;
+    
+}
+.motivation-quotes
+{
+    color: orange;
+    font-style: italic; 
+    font-size: 50px;
+    
+    line-height: 290%;
+}
+h1#mot1
+{
+    padding-left: 850px;
+    color: white;
+}
+h1#mot2
+{
+    padding-left: 1000px;
+    color: white;
+}
+h1#mot3
+{
+    padding-left: 1050px;
+}
+div#button
+{
+    text-align: center;
+    padding-left: 45%;
+    padding-top: 5%;
+}
+input#start
+{
+    font-size: 40px;
+    height: 90px;
+    width: 350px;
+    background-color: orange;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: solid;
+}
+
+input#start:hover
+{
+    background-color: white;
+    color: orange;
+}
+
+
+
+/*------------------Section---------------*/
+
+
+
+
+/*------------------Footer---------------*/
+
+footer
+{
+    background-color: black;
+    margin-top: 0px;
+    padding-top: 2px;
+    padding-bottom: 36px;
+    padding-left: 45px;
+    flex-grow: 1;
+}
+
+li#footer-id
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+div#top-page
+{
+    padding-top: 50px;
+    padding-left: 30px;
+     
+}
+img#logofooter
+{
+    float: left;
+    width: 170px;
+    background-color: black;
+}
+#footertext1
+{
+    color: white;
+    padding-left: 0%;
+    
+}
+#OverAestheticWorld
+{
+    padding-left: 15%;
+    padding-top: 20px;
+    font-display: 10px;
+    list-style: none;
+
+}
+.link-text-list-menu
+{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+
+    
+}
+
+.link-text-list-menu:hover
+{
+    color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
