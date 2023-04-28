@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Aesthetic World</title>
+</head>
+<body>
+
+ <!-----------------------Navigatie---------------------->
+    <nav class="navbar">
+        <div id="logo" >
+            <a href="home.html">
+            <img id="aestheticswhite" src="AestheticsTransparant1.png"></a>
+        </div>
+        <ul>
+            <li id="nav-li"><a href="home.html">Home</a></li>
+            <li id="nav-li"><a href="About.html">About</a></li>
+            <li id="nav-li"><a href="trainingprogrammas.html">Training Programmas</a></li>
+            <li id="nav-li"><a href="voeding.html">Voeding</a></li>
+            <li id="nav-li"><a href="Contact.html">Contact</a></li>
+            
+        </ul>
+    </nav>
+   
+    <!-----------------------Contact Box---------------------->
+    <div id="contact-page">
+        <div id="contact">
+            
+            <div id="blok">
+                <h1 id="contacth1">CONTACT</h1>
+            </div>
+            <div id="gegevens-blok">
+                <h1 id="info">Heb je hulp nodig?</h1>
+                <p id="info1">Ons support team werkt 7 dagen per week om alle verzoeken te behandelen. Neem contact met ons op via onderstaand formulier of bereik ons op support@aestheticworld.com</p>
+                <div id="container1">
+                    <img id="pullup" src="pullup.jpg" alt="pullup">
+                    <h3>Naam*</h3>
+                    <ul id="ul-contact">
+                        <div id="alle-li">
+                            <li class="naam">
+
+                                <input type="text" required id="voornaam" placeholder="Voornaam">
+                                <input type="text" id="familienaam" placeholder="Familienaam">
+                                    
+                            </li>
+                                
+                            <h3>E-mail* <span id="header-telefoon-span">Telefoonnummer</span></h3>
+                            <li class="email-gsm">
+                                <input id="e-mail" type="email" required>
+                                    
+                                <input id="gsm" type="tel">
+                            </li>
+                            <h3>Hoe heb je over ons gehoord?</h3>
+                            <li class="vraag1">
+                                <textarea name="opmerkingen" id="opmerkingen" cols="100" rows="7" ></textarea>
+                            </li>
+                            <h3>Wat kunnen we voor u doen?</h3>
+                            <li class="vraag1">
+                                <textarea name="opmerkingen" id="opmerkingen" cols="100"  rows="15" ></textarea>
+                            </li>
+                                <button id="verzenden" type="submit">VERZENDEN</button>
+                        </div>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div id="top-page">
+            <img id="logofooter" src="AestheticsBLACK.png" alt="">
+            <h2 id="footertext1">Over Aesthetic World</h2>
+            <ul id="OverAestheticWorld">
+                <li id="footer-id" >
+                    <a href="home.html" class="link-text-list-menu">Home</a>
+                </li>
+                <li id="footer-id">
+                    <a href="About.html" class="link-text-list-menu">About</a>
+                </li>
+                <li id="footer-id">
+                    <a href="trainingprogrammas.html" class="link-text-list-menu">Traning Programs</a>
+                </li>
+                <li id="footer-id">
+                    <a href="Voeding.html" class="link-text-list-menu">Voeding</a>
+                </li>
+                <li id="footer-id">
+                    <a href="Contact.html" class="link-text-list-menu">Contact</a>
+                </div>
+            </ul>
+            <h2 id="footertext2"></h2>
+        </div>
+        <div id="bottom-page">
+
+        </div>
+        
+    </footer>
+
+    <script>
+        document.onreadystatechange = function() {
+    let lastScrollPosition = 0;
+    const navbar = document.querySelector('.navbar');
+    window.addEventListener('scroll', function(e) {
+     lastScrollPosition = window.scrollY;
+    
+     if (lastScrollPosition > 100)
+         navbar.classList.add('navbar-donker');
+        else
+         navbar.classList.remove('navbar-donker');
+     });
+}
+    </script>
+
+
+    
+</body>
+</html>
