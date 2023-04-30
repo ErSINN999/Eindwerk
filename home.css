@@ -166,50 +166,84 @@ input#start:hover
 footer
 {
     background-color: black;
-    margin-top: 0px;
-    padding-top: 2px;
-    padding-bottom: 36px;
+    margin-top: 1cm;
+    padding-bottom: 2cm;
     padding-left: 45px;
     flex-grow: 1;
+    padding-left: 5cm;  
+    padding-right: 5cm;
 }
-
 li#footer-id
 {
     padding-top: 0;
     padding-bottom: 0;
+    margin: 15px;
 }
+li#footer-img
+{
+    padding-top: 0;
+    padding-bottom: 0; 
+    margin: 20px; 
+}
+ul#social-media
+{
+    
+    display: flex;
+
+}
+#instagram-img , #twitter-img
+{ 
+    width: 60px;
+}
+#youtube-img
+{
+    width: 80px;
+    height: 60px;
+}
+
 div#top-page
 {
     padding-top: 50px;
-    padding-left: 30px;
-     
+    padding-bottom: 50px;
 }
 img#logofooter
 {
     float: left;
-    width: 170px;
+    width: 230px;
     background-color: black;
 }
-#footertext1
+#footertext
 {
-    color: white;
-    padding-left: 0%;
-    
+    color: white; 
+    padding-bottom: 30px
 }
-#OverAestheticWorld
+td#kolom1, td#kolom2, td#kolom3
 {
-    padding-left: 15%;
-    padding-top: 20px;
-    font-display: 10px;
-    list-style: none;
+   width: 25%;
+   
+}
+td#kolom2
+{
+    padding-bottom: 5px;
+}
+td#kolom3
+{
+    padding-bottom: 105px;
+}
+td#kolom4
+{
+    padding-bottom: 86px;
+}
 
+table
+{
+    width: 100%;
 }
 .link-text-list-menu
 {
     text-decoration: none;
     color: white;
-    letter-spacing: 1px;
-
+    letter-spacing: 2px;
     
 }
 
