@@ -1,12 +1,12 @@
-*{
+*
+{
     margin: 0 auto;
     padding: 0;
-    box-sizing: border-box;
-    
-    
+    box-sizing: border-box;   
 }
 
-body{
+body
+{
     margin: 0 auto;  
     background-color: black; 
     font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
@@ -17,7 +17,8 @@ body{
 
 /*------------------Navigatie---------------*/
 
-nav{
+nav
+{
     display: flex;
     position: fixed;
     top: 0;
@@ -25,52 +26,56 @@ nav{
     padding: 10px;
     align-items: center;
     transition: top 0.3s;
-    
-
-
 }
-.navbar {
-    background-color: white;
+
+.navbar 
+{
+    background-color: black;
     transition-property: background-color, color;
     transition-duration: 0.5s;
-  }
+}
   
-  .navbar-donker {
+.navbar-donker 
+{
     background-color: transparent;
     visibility: hidden ;
     transition: all 0.5s ease-in;
-
-  }
+}
   
-  .navbar-collapse, .navbar-nav, .nav-item {
+.navbar-collapse, .navbar-nav, .nav-item 
+{
     color: inherit;
-  }
-nav ul{
+}
+
+nav ul
+{
     position: relative;
     display: flex;
     float: right;
     padding-left: 18cm;
 }
 
-nav ul li#nav-li{
+nav ul li#nav-li
+{
     list-style: none;
     padding-top: 0;
     padding-bottom: 0;
 
 }
 
-nav ul li#nav-li a{
+nav ul li#nav-li a
+{
     position: relative;
-    color: black;
+    color: white;
     letter-spacing: 2px;
     text-decoration: none;
     margin: 30px;
     float: right;
     display: flex;
     text-align: right;
-    
     font-size: 17px;
 }
+
 nav ul li#nav-li a::before
 {
   background: orange;
@@ -82,22 +87,22 @@ nav ul li#nav-li a::before
   transition: 0.6s ease-in-out;
   z-index: -1;
 }
-nav ul li#nav-li a:hover::before {
+
+nav ul li#nav-li a:hover::before 
+{
     transform: scaleX(1);
     transform-origin: center;
-  }
+}
+
 #aestheticswhite
 {
     height: 150px;
     margin-left: 1cm;
 }
 
+
 /*-----------------------Contact Box----------------------*/
-div#privacypolicy
-{
-    color: black;
-    background-color: red;
-}
+
 div#info-blok
 {
     background-color: white;
@@ -106,7 +111,6 @@ div#info-blok
     padding-left: 12cm;  
     padding-right: 12cm;
     margin-top: 85px;
-    
     width: 100%;
     margin: 0;
 }
@@ -121,14 +125,17 @@ p#ondertitel
 {
     padding-bottom: 2.3cm;
 }
+
 h2#h2-titel
 {
     padding-bottom: 20px;
 }
+
 p#text
 {
     padding-bottom: 2cm;
 }
+
 
 /*------------------Footer---------------*/
 
@@ -142,28 +149,31 @@ footer
     padding-left: 5cm;  
     padding-right: 5cm;
 }
+
 li#footer-id
 {
     padding-top: 0;
     padding-bottom: 14px;
     font-size: 14px;
 }
+
 li#footer-img
 {
     padding-top: 0;
     padding-bottom: 0; 
     margin: 20px; 
 }
+
 ul#social-media
 {
-    
     display: flex;
-
 }
+
 #instagram-img , #twitter-img
 { 
     width: 60px;
 }
+
 #youtube-img
 {
     width: 80px;
@@ -175,30 +185,35 @@ div#top-page
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
 img#logofooter
 {
     float: left;
     width: 230px;
     background-color: black;
 }
+
 #footertext
 {
     color: white; 
     padding-bottom: 30px
 }
+
 td#kolom1, td#kolom2, td#kolom3
 {
    width: 25%;
-   
 }
+
 td#kolom2
 {
     padding-bottom: 5px;
 }
+
 td#kolom3
 {
     padding-bottom: 105px;
 }
+
 td#kolom4
 {
     padding-bottom: 86px;
@@ -208,12 +223,12 @@ table
 {
     width: 100%;
 }
+
 .link-text-list-menu
 {
     text-decoration: none;
     color: white;
     letter-spacing: 2px;
-    
 }
 
 .link-text-list-menu:hover
