@@ -103,7 +103,7 @@ div#contact
 }
 div#wit-background
 {
-    background-image: url(wit-background.jpg);
+    background-image: url(pics/wit-background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -206,7 +206,7 @@ footer
 {
     background-color: black;
     margin-top: 1cm;
-    padding-bottom: 2cm;
+    padding-bottom: 0.5cm;
     padding-left: 45px;
     flex-grow: 1;
     padding-left: 5cm;  
@@ -215,8 +215,8 @@ footer
 li#footer-id
 {
     padding-top: 0;
-    padding-bottom: 0;
-    margin: 15px;
+    padding-bottom: 14px;
+    font-size: 14px;
 }
 li#footer-img
 {

@@ -97,7 +97,7 @@ nav ul li#nav-li a:hover::before {
 /*------------------Home Page Text---------------*/
 div#spierfoto
 {
-    background-image: url(spier.jpg);
+    background-image: url(pics/spier.jpg);
     background-repeat: no-repeat; 
     height: 1000px;
     background-size: cover;
@@ -166,8 +166,7 @@ input#start:hover
 footer
 {
     background-color: black;
-    margin-top: 1cm;
-    padding-bottom: 2cm;
+    padding-bottom: 0.5cm;
     padding-left: 45px;
     flex-grow: 1;
     padding-left: 5cm;  
@@ -176,8 +175,8 @@ footer
 li#footer-id
 {
     padding-top: 0;
-    padding-bottom: 0;
-    margin: 15px;
+    padding-bottom: 14px;
+    font-size: 14px;
 }
 li#footer-img
 {
