@@ -1,0 +1,317 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+body{
+    margin: 0 auto;  
+    background-color: black; 
+    font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+}
+
+/*-------------------------------------------ABOUT PAGE---------------------------------------*/
+
+
+/*------------------Navigatie---------------*/
+
+nav{
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    transition: top 0.3s;
+    
+
+
+}
+.navbar {
+    background-color: white;
+    transition-property: background-color, color;
+    transition-duration: 0.5s;
+  }
+  
+  .navbar-donker {
+    background-color: transparent;
+    visibility: hidden ;
+    transition: all 0.5s ease-in;
+
+  }
+  
+  .navbar-collapse, .navbar-nav, .nav-item {
+    color: inherit;
+  }
+nav ul{
+    position: relative;
+    display: flex;
+    float: right;
+    padding-left: 18cm;
+}
+
+nav ul li#nav-li{
+    list-style: none;
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+
+nav ul li#nav-li a{
+    position: relative;
+    color: black;
+    letter-spacing: 2px;
+    text-decoration: none;
+    margin: 30px;
+    float: right;
+    display: flex;
+    text-align: right;
+    
+    font-size: 17px;
+}
+nav ul li#nav-li a::before
+{
+  background: orange;
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: 0.6s ease-in-out;
+  z-index: -1;
+}
+nav ul li#nav-li a:hover::before {
+    transform: scaleX(1);
+    transform-origin: center;
+  }
+#aestheticswhite
+{
+    height: 150px;
+    margin-left: 1cm;
+}
+
+/*-----------------------Contact Box----------------------*/
+
+div#blok
+{
+    padding-top: 10cm;
+    padding-bottom: 170px;
+    
+}
+div#wit-background
+{
+    background-image: url(pics/wit-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1#info
+{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+}
+p#info1
+{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+p#info2
+{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+}
+
+
+
+div#voeding
+{
+    color: white;
+ 
+    
+}
+h1#titel-h1
+{
+    font-size: 150px;
+    text-align: center;   
+    
+}
+ul{
+    list-style: none;
+}
+div#info-blok
+{
+    padding-top: 2cm;
+    padding-left: 5cm;  
+    padding-right: 5cm;
+    margin-top: 85px;
+    color: black;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 50cm;
+   
+}
+
+
+section#column1
+{
+    padding-top: 100px;
+    width: 48%;
+    float: left;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+
+section#column2
+{
+    width: 48%;
+    padding-top: 100px;
+    float: right;
+    text-align: justify;
+    text-justify: inter-word;
+    
+}
+
+h2#h2-titel
+{
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+p#text
+{
+    padding-bottom: 20px;
+    
+}
+
+img#food
+{
+width: 700px;
+height: 8cm;
+float: right;
+margin-bottom: 6.5cm;
+margin-top: 1cm;
+}
+
+
+img#Maaltijdplanning
+{
+    width: 650px;
+    height: 350px;
+    margin-top: 2.8cm;
+    margin-bottom: 5cm;
+}
+
+img#Hydratatie
+{
+    width: 700px;
+    height: 450px;
+    margin-top: 5cm;
+}
+
+input
+{
+    font-size: 20px;
+    line-height: 290%;
+    width: 9.4cm;
+}
+
+
+/*------------------Footer---------------*/
+
+footer
+{
+    background-color: black;
+    margin-top: 1cm;
+    padding-bottom: 0.5cm;
+    padding-left: 45px;
+    flex-grow: 1;
+    padding-left: 5cm;  
+    padding-right: 5cm;
+}
+li#footer-id
+{
+    padding-top: 0;
+    padding-bottom: 14px;
+    font-size: 14px;
+}
+li#footer-img
+{
+    padding-top: 0;
+    padding-bottom: 0; 
+    margin: 20px; 
+}
+ul#social-media
+{
+    
+    display: flex;
+
+}
+#instagram-img , #twitter-img
+{ 
+    width: 60px;
+}
+#youtube-img
+{
+    width: 80px;
+    height: 60px;
+}
+
+div#top-page
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+img#logofooter
+{
+    float: left;
+    width: 230px;
+    background-color: black;
+}
+#footertext
+{
+    color: white; 
+    padding-bottom: 30px
+}
+td#kolom1, td#kolom2, td#kolom3
+{
+   width: 25%;
+   
+}
+td#kolom2
+{
+    padding-bottom: 5px;
+}
+td#kolom3
+{
+    padding-bottom: 105px;
+}
+td#kolom4
+{
+    padding-bottom: 86px;
+}
+
+table
+{
+    width: 100%;
+}
+.link-text-list-menu
+{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    
+}
+
+.link-text-list-menu:hover
+{
+    color: orange;
+}
