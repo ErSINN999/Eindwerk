@@ -121,6 +121,7 @@ p#info1
     text-align: center;
     margin-top: 40px;
     padding-bottom: 40px;
+    line-height: 35px;
 }
 
 p#info2
@@ -167,7 +168,8 @@ div#pagina-text
     color: black;
     width: 100%;
     margin: 0;
-    height: 100cm;
+    height: 80cm;
+   
     
     
 }
