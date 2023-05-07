@@ -99,6 +99,7 @@ div#blok
     padding-top: 10cm;
     padding-bottom: 170px;
     
+    
 }
 div#wit-background
 {
@@ -106,6 +107,7 @@ div#wit-background
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+   
 }
 h1#info
 {
@@ -151,22 +153,35 @@ div#info-blok
     padding-top: 2cm;
     padding-left: 5cm;  
     padding-right: 5cm;
-    margin-top: 85px;
     color: black;
     width: 100%;
     margin: 0;
-    padding-bottom: 50cm;
    
 }
 
-
+div#pagina-text
+{
+    
+    padding-left: 5cm;  
+    padding-right: 5cm;
+    color: black;
+    width: 100%;
+    margin: 0;
+    height: 100cm;
+    
+    
+}
+img#lang-fruit
+{
+    padding-left: 10cm;
+    
+}
 section#column1
 {
     padding-top: 100px;
     width: 48%;
     float: left;
-    text-align: justify;
-    text-justify: inter-word;
+    
 
 }
 
@@ -175,9 +190,8 @@ section#column2
     width: 48%;
     padding-top: 100px;
     float: right;
-    text-align: justify;
-    text-justify: inter-word;
-    
+   
+   
 }
 
 h2#h2-titel
@@ -189,15 +203,16 @@ h2#h2-titel
 p#text
 {
     padding-bottom: 20px;
-    
+    line-height: 26px;
+    font-family: 'TildaSans',Arial,sans-serif;
 }
 
 img#food
 {
 width: 700px;
-height: 8cm;
+height: 9.5cm;
 float: right;
-margin-bottom: 6.5cm;
+margin-bottom: 6cm;
 margin-top: 1cm;
 }
 
@@ -214,9 +229,25 @@ img#Hydratatie
 {
     width: 700px;
     height: 450px;
-    margin-top: 5cm;
+    margin-top: 6cm;
+    margin-bottom: 5cm;
 }
 
+img#Voedingssupplementen
+{
+    width: 600px;
+    height: 450px;
+    margin-top: 5cm;
+    margin-bottom: 5cm;
+}
+
+img#training
+{
+    width: 700px;
+    height: 430px;
+    margin-top: 6cm;
+    margin-bottom: 5cm;
+}
 input
 {
     font-size: 20px;
