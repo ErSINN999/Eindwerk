@@ -139,7 +139,7 @@ div#button
 input#start
 {
     font-size: 40px;
-    height: 90px;
+    
     width: 350px;
     background-color: orange;
     color: white;
@@ -151,6 +151,115 @@ input#start:hover
 {
     background-color: white;
     color: orange;
+}
+h1#titel-h1-home
+{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+img#Background-foto
+{
+    height: 17cm;
+    width: 48.9cm;
+}
+
+p#motivatie
+{
+    text-transform: uppercase;
+    text-align: center;
+    background-color: orange;
+    padding: 20px;
+    font-size: 40px;
+}
+div#navigatie
+{
+    background-image: url(pics/Background-foto.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 8cm;
+    padding-top: 2cm;
+    padding-left: 5cm;  
+    padding-right: 5cm;
+    display: flex;
+    height: 15cm;
+    letter-spacing: 2px;
+    font-family: 'TildaSans',Arial,sans-serif;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+h2#text-nav
+{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 40px;
+}
+section#colom1
+{
+    width: 33.3%;
+}
+
+section#colom2
+{
+    width: 33.3%;
+}
+
+section#colom3
+{
+    width: 33.3%;
+}
+img#gym
+{
+    width: 130px;
+    height: 100px;
+    margin-left: 4.5cm;
+}
+
+p#informatie-nav
+{
+    text-align: center;
+    padding-top: 30px;
+    width: 280px;
+    padding-bottom: 50px;
+    font-size: 15px;
+}
+
+input#meer-informatie1
+{
+    width: 5cm;
+    text-transform: uppercase;
+    font-size: 15px;
+    background-color: orange;
+    line-height: 25px;
+    margin-left: 4cm;
+
+    position: relative;
+
+    
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6vh;
+    overflow: hidden;
+    border: 1px solid;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    transition: 0.5s;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    
+}
+div#reviews
+{
+    height: 20cm;
 }
 
 /*-------------------------------------------ABOUT/VOEDING/CONTACT PAGINA(gemeenschappelijke code) ---------------------------------------*/
@@ -474,6 +583,19 @@ p#termENprivacy-text-blok
     padding-bottom: 2cm;
 }
 
+nav ul li#nav-li-privacyenterma{
+    position: relative;
+    color: white;
+    letter-spacing: 2px;
+    text-decoration: none;
+    margin: 30px;
+    float: right;
+    display: flex;
+    text-align: right;
+    
+    font-size: 17px;
+}
+
 /*-------------------------------------------PRIVACY POLICY PAGINA---------------------------------------*/
 
 h1#privacy-h1-titel
@@ -483,15 +605,6 @@ h1#privacy-h1-titel
     text-align: center;
 }
 
-div#termENprivacy-navbar-kleur 
-{
-    background-color: black;
-}
-
-div#termENprivacy-navbar-kleur nav ul div#nav-li-termenprivacy div#nav-li a
-{
-    color: black;
-}
 
 
 
