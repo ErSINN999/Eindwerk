@@ -138,24 +138,26 @@ div#button
 }
 input#start
 {
+    width: 280px;
+    height: 110px;
+    border: none;
+    color: black;
+    background: black;
+    font-weight: bolder;
+    text-transform: uppercase;
     font-size: 40px;
+    box-shadow: 0 0 1px 100px white inset, 0 0 0 0 white;
+    transition: all 150ms ease-in-out;
+    float: right;
+    margin-right: 100px;
     
-    width: 350px;
-    background-color: orange;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-style: solid;
+   
 }
 
 input#start:hover
 {
-    background-color: white;
-    color: orange;
-}
-h1#titel-h1-home
-{
-    text-align: center;
-    text-transform: uppercase;
+    box-shadow: 0 0 10px 0 orange inset, 0 0 10px 4px orange;
+    color: white;
 }
 
 img#Background-foto
@@ -179,14 +181,16 @@ div#navigatie
     background-position: center;
     background-repeat: no-repeat;
 
-    height: 8cm;
-    padding-top: 2cm;
+    
+    padding-top: 3cm;
     padding-left: 5cm;  
     padding-right: 5cm;
+    padding-bottom: 5cm;
     display: flex;
-    height: 15cm;
+    height: 18cm;
     letter-spacing: 2px;
     font-family: 'TildaSans',Arial,sans-serif;
+    text-align: center;
 }
 
 a
@@ -198,70 +202,118 @@ a
 h2#text-nav
 {
     text-transform: uppercase;
-    text-align: center;
     padding-top: 40px;
 }
+
 section#colom1
 {
     width: 33.3%;
+    height: 20%;
+}
+
+.beweeg-juist-padding
+{
+    padding-bottom: 15px;
 }
 
 section#colom2
 {
     width: 33.3%;
+    height: 20%;
 }
 
 section#colom3
 {
     width: 33.3%;
+    height: 20%;
 }
-img#gym
+
+img#gym, img#light
 {
     width: 130px;
-    height: 100px;
-    margin-left: 4.5cm;
+}
+
+img#vegetables
+{
+    width: 110px;
+    padding-bottom: 15px;
+    
 }
 
 p#informatie-nav
 {
     text-align: center;
     padding-top: 30px;
-    width: 280px;
+    width: 70%;
     padding-bottom: 50px;
     font-size: 15px;
+    margin-bottom: 10%;
 }
 
-input#meer-informatie1
-{
-    width: 5cm;
-    text-transform: uppercase;
-    font-size: 15px;
-    background-color: orange;
-    line-height: 25px;
-    margin-left: 4cm;
 
-    position: relative;
-
-    
-    height: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 6vh;
-    overflow: hidden;
-    border: 1px solid;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-    transition: 0.5s;
-    letter-spacing: 1px;
-    border-radius: 8px;
-    
-}
 div#reviews
 {
-    height: 20cm;
+    height: 35cm;
+    display: flex;
+    
+
+    
+}
+#titel-h1-home
+{
+    padding-top: 2cm;
+    padding-bottom: 3cm;
+    text-align: center;
+    text-transform: uppercase;
+    
 }
 
+section#review-colom1, section#review-colom2, section#review-colom3
+{
+    box-shadow: 0 0 10px rgba(0,0,0.15);
+    color: black;
+    width: 31%;
+    margin-bottom: 5cm;
+    
+    
+}
+
+img#before-after1 
+{
+    width: 456px;
+    
+}
+
+img#before-after2
+{
+    width: 456px;
+}
+
+img#before-after3
+{
+    width: 456px;
+    height: 410px;
+}
+
+h3#review-naam
+{
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+p#review-text
+{
+    padding: 50px;
+    line-height: 30px;
+    
+}
+
+img#stars
+{
+    width: 150px;
+    margin-left: 50px;
+
+}
 /*-------------------------------------------ABOUT/VOEDING/CONTACT PAGINA(gemeenschappelijke code) ---------------------------------------*/
 div#blok
 {
@@ -285,6 +337,36 @@ div#info-blok
     margin: 0;
 }
 
+div#wit-background
+{
+    background-image: url(pics/wit-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+input[type=button]
+{
+    width: 220px;
+    height: 50px;
+    border: none;
+    color: white;
+    background: white;
+    border-radius:30px;
+    text-transform: uppercase;
+    font-size: 15px;
+    box-shadow: 0 0 40px 40px black inset, 0 0 0 0 black;
+    transition: all 150ms ease-in-out;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p#motivatie, div#navigatie, div#wit-background, input[type=button]:hover
+{
+    box-shadow: 0 0 10px 0 white inset, 0 0 10px 4px black;
+    color: black;
+   
+}
 /*-------------------------------------------ABOUT PAGINA---------------------------------------*/
 
 h1#titel-h1
@@ -322,14 +404,7 @@ ul{
     list-style: none;
 }
 
-div#wit-background
-{
-    background-image: url(pics/wit-background.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-   
-}
+
 h1#voeding-info
 {
     text-align: center;
