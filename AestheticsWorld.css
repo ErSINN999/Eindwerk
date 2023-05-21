@@ -367,39 +367,110 @@ p#motivatie, div#navigatie, div#wit-background, input[type=button]:hover
     color: black;
    
 }
-/*-------------------------------------------ABOUT PAGINA---------------------------------------*/
 
 h1#titel-h1
 {
     font-size: 150px;
     text-align: center;   
-    
 }
+
+#info
+{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+}
+/*-------------------------------------------ABOUT PAGINA---------------------------------------*/
 ul{
     list-style: none;
 }
 
+
+
 div#about-pagina-text
 {
-    padding-top: 100px;
-    height: 20cm;
+    padding-top: 150px;
+    height: 32cm;
    
 }
-input
-{
-    font-size: 20px;
-    line-height: 290%;
-    width: 9.4cm;
-}
 
-/*-----------------------VOEDING PAGINA----------------------*/
-
-h1#titel-h1
+section#colom1-left, section#colom2-right
 {
-    font-size: 150px;
-    text-align: center;   
+    width: 50%;
+    float: left;
+    text-align: center;
+    
+    line-height: 60px;
     
 }
+
+section#colom2-right
+{
+    float: right;
+}
+#mezelf-text
+{
+    font-size: 25px;
+    text-transform: uppercase; 
+}
+
+h1#mezelf-text
+{
+    text-align: center;
+    padding-top: 5cm;
+    font-size: 40px;
+}
+
+img#foto1
+{
+    height: 500px;
+}
+
+p#jaar14
+{
+    padding-bottom: 4cm;
+    
+}
+
+img#foto2
+{
+    height: 600px;
+    margin-top: 3.5cm;
+}
+
+
+div#container2
+{
+   
+    height: 40cm;
+}
+
+img#foto3
+{
+    height: 600px;
+    margin-top: 3.5cm;
+
+}
+
+div#vragen
+{
+    text-align: center;
+    padding-top: 3.5cm;
+    font-size: 25px;
+}
+p#vragen-text, p#vragen-text-kort
+{
+    padding-bottom: 30px;
+}
+
+p#vragen-text-kort
+{
+    width: 12cm;
+    font-size: 25px;
+}
+/*-----------------------VOEDING PAGINA----------------------*/
+
+
 ul{
     list-style: none;
 }
@@ -554,12 +625,7 @@ div#gegevens-blok
     margin: 0;
     
 }
-#info
-{
-    text-align: center;
-    font-size: 50px;
-    padding-top: 20px;
-}
+
 #info1
 {
     font-size: 20px;
