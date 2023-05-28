@@ -34,8 +34,84 @@
             <div id="wit-background">
                 <div id="info-blok">
                     <h1 id="info">MAAK DE BESTE FYSIEK OOIT!</h1>
+                    <p id="ondertitel">PERSOONLIJKE TRAINING EN VOEDING</p>
                 <div id="trainingprogram-pagina-text">
-                    
+                    <div id="nav-trainingprogram">
+                        <section id="training-kolom1">
+                            <img id="foto-program12" src="pics/12-week-program.png" alt="">
+                            <p id="titel-nav-program12">12 weken afstandsleren</p>
+                            <a href="#P12-weken-afstandsleren"><input id="meer-informatie3" type="button" value="Meer informatie"></a>
+                        </section>
+                        
+                        <section id="training-kolom2">
+                            <img id="foto-program" src="pics/voeding-program.png" alt="">
+                            <p id="titel-nav-program2">voedingsprogramma</p>
+                            <input id="meer-informatie3" type="button" value="Meer informatie">
+                        </section>
+
+                        <section id="training-kolom3">
+                            <img id="foto-program" src="pics/training-program.png" alt="">
+                            <p id="titel-nav-program3">trainingsprogramma</p>
+                            <input id="meer-informatie3" type="button" value="Meer informatie">
+                        </section>
+
+                        <section id="training-kolom4">
+                            <img id="foto-program" src="pics/thuis-program.png" alt="">
+                            <p id="titel-nav-program4">12 weken thuistraining</p>
+                            <input id="meer-informatie3" type="button" value="Meer informatie">
+                        </section>
+                    </div>
+
+
+                    <div id="blok1">
+                        <section id="foto-kolom1">
+                            <img class="foto-program12" src="pics/12-week-program.png" alt="">
+                        </section>
+
+                        <section id="text-kolom1">
+                            <h2 id="P12-weken-afstandsleren">12 WEKEN AFSTANDSLEREN</h2>
+                            <ul id="info-opsomming">
+                                <li id="info-programma"> volledig pakket</li>
+                                <li id="info-programma">speciale training en voeding</li>
+                                <li id="info-programma">video-ondersteund trainingsprogramma</li>
+                                <li id="info-programma">visueel ondersteund voedingsprogramma </li>
+                                <li id="info-programma">buikspierprogramma</li>
+                                <li id="info-programma">verbeter je lichaam door gezond te eten </li>
+                                <li id="info-programma">vergroot je spiermassa door vet te verbranden </li>
+                                <li id="info-programma">cardio programma </li>
+                                <li id="info-programma">analyse van de lichaamsconditie </li>
+                                <li id="info-programma">vraag en antwoord met de trainer</li>
+                            </ul>
+
+                            <form id="berekening">
+                                <div id="extra-vraag">
+                                    
+                                    <input type="checkbox" name="check" id="check" onclick=check() value="37.90">
+                                    <div id="vip">VIP LIDMAATSCHAP <span id="geld">€ 34,99</span></div>
+                                    
+                                </div>
+
+                                <div id="totaal-blok">
+                                    <p id="totaalgeld">€ 119,95</p> 
+                                    <input id="meer-informatie-totaal" type="button" value="KOOP NU">
+                                </div>
+                            </form>
+                            <script>
+        
+                                function check(check)
+                                    {
+                                        var vip = eval (berekening.vip.value);
+                                        var totaalgeld = 119.95 + vip;
+                                        alert('totaalgeld')
+                                        vip = document.getElementById('vip').value
+                                        totaalgeld = document.getElementById('totaalgeld').value
+                                        
+                                        document.getElementById('totaalgeld').innerHTML += totaalgeld
+                                    }
+                            </script>
+                        </section>
+                        
+                    </div>
                 </div>
                 </div>
         </div>

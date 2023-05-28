@@ -468,6 +468,182 @@ p#vragen-text-kort
     width: 12cm;
     font-size: 25px;
 }
+/*-----------------------TRAINING PROGRAM PAGINA----------------------*/
+div#trainingprogram-pagina-text
+{
+    height: 100cm;
+    
+}
+
+p#ondertitel
+{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+div#nav-trainingprogram
+{
+    display: flex;
+}
+
+
+img#foto-program, img#foto-program12
+{
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+img#foto-program12
+{
+    width: 200px; 
+}
+
+img#foto-program
+{
+    width: 240px;
+}
+
+
+
+section#training-kolom1, section#training-kolom2, section#training-kolom3, section#training-kolom4
+{
+    box-shadow: 0 0 10px rgba(0,0,0.15);
+    width: 23%;
+    text-align: center;
+    border-radius: 15px;
+    height: 13cm;
+}
+
+p#titel-nav-program12
+{
+    text-transform: uppercase;
+    padding-top: 50px;
+    color: rgb(177, 41, 41);
+    font-size: 20px;
+    padding-bottom: 1cm;
+    
+}
+
+p#titel-nav-program2, p#titel-nav-program3, p#titel-nav-program4 
+{
+    text-transform: uppercase;
+    padding-top: 75px;
+    font-size: 20px;
+    padding-bottom: 1cm;
+    
+}
+
+p#titel-nav-program2
+{
+    color: rgb(3, 128, 3);
+}
+
+p#titel-nav-program3
+{
+    color: rgb(46, 45, 45);
+}
+
+p#titel-nav-program4
+{
+    color: goldenrod;
+}
+
+div#blok1
+{
+    padding-top: 4cm;
+    display: flex;
+
+}
+
+section#foto-kolom1, section#text-kolom1
+{
+    width: 45%;
+    
+}
+
+img.foto-program12
+{
+    width: 600px;
+}
+
+h2#P12-weken-afstandsleren
+{
+    color: rgb(177, 41, 41);
+    font-size: 40px;
+    padding-bottom: 35px;
+}
+
+ul#info-opsomming
+{
+    padding: 0;
+    padding-left: 40px;
+    
+}
+li#info-programma
+{
+    list-style-type: '🔱';
+    text-transform: uppercase;
+    color: rgb(48, 48, 48);
+    padding: 0;
+    padding-bottom: 20px;
+}
+
+input#check
+{
+    width: 0.7cm;
+    height: 0.7cm;
+    
+    margin: 0;
+}
+
+div#extra-vraag
+{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+div#vip
+{
+    margin: 0;
+    padding-left: 10px;
+    color: gray; 
+    font-size: 16px;
+    
+}
+
+span#geld
+{
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+div#totaal-blok
+{
+    margin-top: 70px;
+    padding: 30px;
+    padding-left: 40px;
+    box-shadow: 0 0 8px rgb(177, 41, 41);
+    border-radius: 50px;
+    display: flex;
+}
+
+p#totaalgeld
+{
+    font-size: 40px;
+    color: rgb(177, 41, 41);
+    font-weight: bolder;
+}
+input#meer-informatie-totaal
+{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
 /*-----------------------VOEDING PAGINA----------------------*/
 
 
