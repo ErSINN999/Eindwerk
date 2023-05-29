@@ -471,7 +471,7 @@ p#vragen-text-kort
 /*-----------------------TRAINING PROGRAM PAGINA----------------------*/
 div#trainingprogram-pagina-text
 {
-    height: 100cm;
+    height: 120cm;
     
 }
 
@@ -483,6 +483,7 @@ p#ondertitel
     
 }
 
+/*NAVIGATIE VAN PROGRAMMEN */
 div#nav-trainingprogram
 {
     display: flex;
@@ -550,29 +551,26 @@ p#titel-nav-program4
     color: goldenrod;
 }
 
+
+
+
+/*GEMEENSCHAPPELIJKE CODE VAN ALLE PAKKETEN*/
+
 div#blok1
 {
     padding-top: 4cm;
+    padding-bottom: 1cm;
     display: flex;
-
 }
 
 section#foto-kolom1, section#text-kolom1
 {
     width: 45%;
-    
 }
 
 img.foto-program12
 {
     width: 600px;
-}
-
-h2#P12-weken-afstandsleren
-{
-    color: rgb(177, 41, 41);
-    font-size: 40px;
-    padding-bottom: 35px;
 }
 
 ul#info-opsomming
@@ -588,14 +586,54 @@ li#info-programma
     color: rgb(48, 48, 48);
     padding: 0;
     padding-bottom: 20px;
+    padding-left: 7px;
 }
 
 input#check
 {
     width: 0.7cm;
     height: 0.7cm;
-    
     margin: 0;
+}
+
+span#geld
+{
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+div#totaal-blok
+{
+    margin-top: 70px;
+    padding: 30px;
+    padding-left: 40px;
+    box-shadow: 0 0 8px black;
+    border-radius: 20px;
+    display: flex;
+}
+
+p#totaalgeld-12WEKEN, p#totaalgeld-VOEDING, p#totaalgeld-TRAININGSPROGRAMMA, p#totaalgeld-12THUIS
+{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+input#totaal
+{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+
+/*BLOK 1 12 WEKEN TRAINING PAKKET*/
+
+h2#P12-weken-afstandsleren
+{
+    color: rgb(177, 41, 41);
+    font-size: 40px;
+    padding-bottom: 35px;
 }
 
 div#extra-vraag
@@ -614,34 +652,91 @@ div#vip
     
 }
 
-span#geld
+p#totaalgeld-12WEKEN
 {
-    font-weight: bold;
-    padding-left: 15px;
-}
-
-div#totaal-blok
-{
-    margin-top: 70px;
-    padding: 30px;
-    padding-left: 40px;
-    box-shadow: 0 0 8px rgb(177, 41, 41);
-    border-radius: 50px;
-    display: flex;
-}
-
-p#totaalgeld
-{
-    font-size: 40px;
-    color: rgb(177, 41, 41);
-    font-weight: bolder;
-}
-input#meer-informatie-totaal
-{
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
     
+    color: rgb(177, 41, 41);
+    
+}
+
+/*LIJN = hr */
+hr#lijn1, hr#lijn2, hr#lijn3
+{
+    height: 10px;
+    border-radius: 100px;
+    background-color: rgb(224, 220, 220);
+    margin-top: 4cm;
+
+}
+
+
+
+/*BLOK 2 VOEDING*/
+
+h2#Voeding
+{
+    color: rgb(3, 128, 3);
+    font-size: 40px;
+    padding-bottom: 35px;
+}
+
+img.foto-training
+{
+    width: 600px;
+}
+
+p#totaalgeld-VOEDING
+{
+    
+    color: rgb(3, 128, 3);
+    
+}
+
+/*BLOK 3 TRAININGSPROGRAMMA*/
+
+h2#Trainingsprogramma
+{
+    color: rgb(46, 45, 45);
+    font-size: 40px;
+    padding-bottom: 35px;
+}
+
+img.foto-voeding
+{
+    width: 600px;
+}
+
+p#totaalgeld-TRAININGSPROGRAMMA
+{
+    
+    color: rgb(46, 45, 45);
+    
+}
+
+/*BLOK 4 12 WEKEN THUISTRAINING*/
+
+h2#P12-WEKEN-THUISTRAINING
+{
+    color: goldenrod;
+    font-size: 40px;
+    padding-bottom: 35px;
+}
+
+img.foto-thuis
+{
+    width: 600px;
+}
+
+p#totaalgeld-12THUIS
+{
+    
+    color: goldenrod;
+    
+}
+
+p#texttt
+{
+    text-transform: lowercase;
 }
 
 /*-----------------------VOEDING PAGINA----------------------*/
@@ -826,7 +921,7 @@ input
     padding-left: 15px;
 }
 
-ul li
+ul li.naam , li.email-gsm, li.vraag1
 {
     padding-top: 12px;
     padding-bottom: 1cm;

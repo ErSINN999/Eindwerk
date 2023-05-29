@@ -11,7 +11,7 @@
 </head>
 <body>
     
-    <!-----------------------Navigatie---------------------->
+    <!-----------------------Navigatie HOME PAGE---------------------->
     <nav class="navbar">
         <div id="logo" >
             <a href="home">
@@ -26,6 +26,8 @@
         </ul>
     </nav>
 
+
+ <!----------GROTE FOTO + MOTIVATIE TEXT + BUTTON-------------->
     <div id="spierfoto">
         <div id="spiertext">
             <div class="motivation-quotes">
@@ -37,6 +39,9 @@
                 <a href="trainingprogrammas.html"><input id="start" type="button" value="START"></a>
             </div>
         </div>
+
+
+    <!----------NAVIGATIE VOOR MEER INFORMATIE -------------->
     </div>
     <p id="motivatie">Beweeg juist • denk beter • eet slim</p>
     <div id="navigatie">
@@ -61,14 +66,15 @@
             <p id="informatie-nav">Alles wat u moet weten om uw doelen te bereiken vindt u hier belangrijke voedingsstoffen, maaltijdplanning, hydratatie, voedingssupplementen, voeding en training</p>
             <a href="Voeding.html"><input id="meer-informatie3" type="button" value="Meer informatie"></a>
         </section>
-
     </div>
+
+    <!----------TRANSFORMATIE BOX + REVIEWS-------------->
     <div id="wit-background">
         <div id="info-blok">
             <h1 id="titel-h1-home">Werken met echte mensen, echte resultaten behalen!</h1>
             
-            
             <div id="reviews">
+
                 <section id="review-colom1">
                     <img id="before-after1" src="pics/before-after1.jpg" alt="">
                     <h3 id="review-naam">Tom</h3>
@@ -90,20 +96,19 @@
                     <p id="review-text">"Ik kan met recht zeggen dat investeren in mijn personal coach de beste beslissing is geweest die ik ooit heb genomen. Hij heeft me laten zien wat er mogelijk is als je je volledig toewijdt aan bodybuilding en een positieve mindset ontwikkelt. Zijn aanmoediging en constante ondersteuning hebben me geholpen om mijn grenzen te verleggen en resultaten te behalen waarvan ik nooit had gedacht dat ik ze zou kunnen bereiken. Als enthousiaste bodybuilder ben ik zo dankbaar voor zijn begeleiding en kan ik hem niet genoeg aanbevelen aan anderen die hun lichaam en geest willen transformeren."</p>
                     <img id="stars" src="pics/5stars.png" alt="">
                 </section>
-
             </div>
         </div>
     </div>
    
 
 
-    <!--Footer-->
+    <!------------------------------FOOOOOOOTER ------------------------------------->
     <footer>
         <div id="top-page">
             <table>
             <tr>
-                <td id="kolom1"><img id="logofooter" src="pics/AestheticsBLACK.png" alt=""></td>
-                <td id="kolom2">
+                <td id="kolom1"><img id="logofooter" src="pics/AestheticsBLACK.png" alt=""></td> <!---KOLOM 1 = LOGO--->
+                <td id="kolom2"><!---KOLOM 2 = NAAVIGATIE--->
                     <h2 id="footertext">Navigatie</h2>
                     <ul id="OverAestheticWorld">
                         <li id="footer-id" >
@@ -120,8 +125,11 @@
                         </li>
                         <li id="footer-id">
                             <a href="Contact.html" class="link-text-list-menu">Contact</a>
+                        </li>
                 </td>
-                <td id="kolom3">
+
+                <!---KOLOM 3 = INFORMATIE--->
+                <td id="kolom3"> 
                     <h2 id="footertext">Informatie</h2>
                     <ul id="informatie">
                         <li id="footer-id" >
@@ -132,6 +140,8 @@
                         </li>
                     </ul>
                 </td>
+
+                <!---KOLOM 4 = SOCIALE MEDIA--->
                 <td id="kolom4">
                     <h2 id="footertext">Social Media</h2>
                     <ul id="social-media">
@@ -153,25 +163,25 @@
         <div id="bottom-page">
 
         </div>
-        
-    </footer>
+    </footer> <!------------EINDE FOOOTER------------>
 
+
+    <!------------SCRIPT VOOR ANIMATIE VAN DE NAVIGATIE BAR------------->
     <script>
-        document.onreadystatechange = function() {
-    let lastScrollPosition = 0;
-    const navbar = document.querySelector('.navbar');
-    window.addEventListener('scroll', function(e) {
-     lastScrollPosition = window.scrollY;
-    
-     if (lastScrollPosition > 100)
-         navbar.classList.add('navbar-donker');
-        else
-         navbar.classList.remove('navbar-donker');
-     });
-}
+        document.onreadystatechange = function() 
+        {
+            let lastScrollPosition = 0;
+            const navbar = document.querySelector('.navbar');
+            window.addEventListener('scroll', function(e) {
+            lastScrollPosition = window.scrollY;
+            
+            if (lastScrollPosition > 100)
+                navbar.classList.add('navbar-donker');
+            else
+                navbar.classList.remove('navbar-donker');
+            });
+        }
     </script>
 
-    
-    
 </body>
 </html>
