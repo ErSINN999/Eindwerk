@@ -410,7 +410,7 @@ section#colom2-right
 }
 #mezelf-text
 {
-    font-size: 25px;
+    font-size: 23px;
     text-transform: uppercase; 
 }
 
@@ -429,6 +429,7 @@ img#foto1
 p#jaar14
 {
     padding-bottom: 4cm;
+    text-transform: uppercase;
     
 }
 
@@ -456,7 +457,7 @@ div#vragen
 {
     text-align: center;
     padding-top: 3.5cm;
-    font-size: 25px;
+    font-size: 20px;
 }
 p#vragen-text, p#vragen-text-kort
 {
@@ -465,9 +466,51 @@ p#vragen-text, p#vragen-text-kort
 
 p#vragen-text-kort
 {
-    width: 12cm;
-    font-size: 25px;
+   
+    font-size: 20px;
 }
+
+div#container3
+{
+    height: 20cm;
+   
+}
+h1#titel-about3
+{
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 2.5cm;
+}
+
+div#colom2-text
+{
+    padding-top: 7cm;
+    
+    
+}
+
+img#foto4
+{
+    width: 500px;
+    padding-top: 3.5cm;
+    
+}
+
+div#container4
+{
+    margin-top: 7cm;
+    height: 10cm;
+}
+h1#vraag-about
+{
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+
 /*-----------------------TRAINING PROGRAM PAGINA----------------------*/
 div#trainingprogram-pagina-text
 {
