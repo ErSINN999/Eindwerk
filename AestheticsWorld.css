@@ -632,19 +632,6 @@ li#info-programma
     padding-left: 7px;
 }
 
-input#check
-{
-    width: 0.7cm;
-    height: 0.7cm;
-    margin: 0;
-}
-
-span#geld
-{
-    font-weight: bold;
-    padding-left: 15px;
-}
-
 div#totaal-blok
 {
     margin-top: 70px;
@@ -655,8 +642,16 @@ div#totaal-blok
     display: flex;
 }
 
-p#totaalgeld-12WEKEN, p#totaalgeld-VOEDING, p#totaalgeld-TRAININGSPROGRAMMA, p#totaalgeld-12THUIS
+p#totaalgeld-VOEDING, p#totaalgeld-TRAININGSPROGRAMMA
 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+label#eindprijs, label#thuis-eindprijs
+{
+    
+    
     font-size: 40px;
     font-weight: bolder;
 }
@@ -668,6 +663,8 @@ input#totaal
     text-align: center;
     
 }
+
+
 
 
 /*BLOK 1 12 WEKEN TRAINING PAKKET*/
@@ -694,13 +691,14 @@ div#vip
     font-size: 16px;
     
 }
-
-p#totaalgeld-12WEKEN
+label#eindprijs
 {
-    
     color: rgb(177, 41, 41);
-    
 }
+
+
+    
+
 
 /*LIJN = hr */
 hr#lijn1, hr#lijn2, hr#lijn3
@@ -770,18 +768,23 @@ img.foto-thuis
     width: 600px;
 }
 
-p#totaalgeld-12THUIS
+label#thuis-eindprijs
 {
     
     color: goldenrod;
     
 }
 
-p#texttt
+input#markeer
 {
-    text-transform: lowercase;
+    width: 30px;
+    margin: 0;
 }
 
+span#geld
+{
+    
+}
 /*-----------------------VOEDING PAGINA----------------------*/
 
 
@@ -903,7 +906,7 @@ img#training
 input
 {
     font-size: 20px;
-    line-height: 290%;
+    
     width: 9.4cm;
 }
 

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="AestheticsWorld.css">
+    <link rel="shortcut icon" href="pics/witt.png" type="image/x-icon">
     <title>Aesthetic World</title>
 </head>
 <body>
@@ -87,34 +88,36 @@
                             <form id="berekening">
                                 <div id="extra-vraag">
                                     
-                                    <input type="checkbox" name="check" id="check" onclick=check() value="37.90">
+                                    <input type="checkbox" id="markeer" onclick="bereken(this.form)" value="34.99">
                                     <div id="vip">VIP LIDMAATSCHAP <span id="geld">€ 34,99</span></div>
                                     
                                 </div>
 
                                 <div id="totaal-blok">
-                                    <p id="totaalgeld-12WEKEN">€ 119,95</p> 
+                                    <label for="totaal" id="eindprijs">€ 119,95</label>
+                                    
                                     <input id="totaal" type="button" value="KOOP NU">
                                 </div>
                             </form>
+                            
                             <script>
                               
-                                function check(check)
+                                function bereken(f)
                                     {
+                                        var vip = 34.99;
+                                        var totaal;
 
-                                        if (check() = true)
+                                        if (f.markeer.checked ==true)
                                             {
-                                                var vip = 34.99;
-                                                var totaalgeld = 119.95 + vip;
-
-                                        alert('totaalgeld')
-
-                                        vip = document.getElementById('vip').value
-                                        totaalgeld = document.getElementById('totaalgeld').value
-                                        document.getElementById('vip').innerHTML += viptotaalgel
-                                        document.getElementById('totaalgeld').innerHTML += totaalgel
+                                              totaal = 119.95 + vip  
                                             }
-                                        d
+                                            else
+                                            {
+                                                totaal = 119.95
+                                            }
+                                        
+                                        document.getElementById('eindprijs').innerHTML = "€" + totaal ;
+                                        
                                     }
                             </script>
                         </section>
@@ -212,28 +215,46 @@
                             <form id="berekening">
                                 <div id="extra-vraag">
                                     
-                                    <input type="checkbox" name="check" id="check" onclick=check() value="37.90">
+                                    <input type="checkbox" name="check" id="markeer" onclick=berekenvip(this.form) value="34.99">
                                     <div id="vip">VIP LIDMAATSCHAP <span id="geld">€ 34,99</span></div>
+                                    
+                                    
                                     
                                 </div>
 
                                 <div id="totaal-blok">
-                                    <p id="totaalgeld-12THUIS">€ 79,95</p> 
+                                    
+                                    <label for="totaal" id="thuis-eindprijs">€ 79,95</label>
                                     <input id="totaal" type="button" value="KOOP NU">
                                 </div>
                             </form>
+
+                            <script>
+
+                              var totaal = 0;
+
+                                function berekenvip(f)
+                                    {
+                                        var vip = 34.99;
+                                        var extra = 55.90;
+
+                                        if (f.markeer.checked ==true)
+                                            {
+                                              totaal = 79.95 + vip  
+                                            }
+                                            else
+                                            {
+                                                totaal = 79.95
+                                            }
+                                            
+                                            document.getElementById('thuis-eindprijs').innerHTML = "€" + totaal;
+                                       
+                                    }
+
+                            </script>
                             <script>
         
-                                function check(check)
-                                    {
-                                        var vip = eval (berekening.vip.value);
-                                        var totaalgeld = 119.95 + vip;
-                                        alert('totaalgeld')
-                                        vip = document.getElementById('vip').value
-                                        totaalgeld = document.getElementById('totaalgeld').value
-                                        
-                                        document.getElementById('totaalgeld').innerHTML += totaalgeld
-                                    }
+                               
                             </script>
                         </section>
                         
@@ -322,6 +343,7 @@
      });
 }
     </script>
+
 
 
     
