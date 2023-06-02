@@ -500,7 +500,7 @@ img#foto4
 div#container4
 {
     margin-top: 7cm;
-    height: 10cm;
+    height: 9cm;
 }
 h1#vraag-about
 {
@@ -510,6 +510,14 @@ h1#vraag-about
     
 }
 
+input#welcome-button
+{
+   width: 10cm;
+   font-size: 20px;
+   height: 60px;
+   margin-left: 15cm;
+   margin-top: 2cm;
+}
 
 /*-----------------------TRAINING PROGRAM PAGINA----------------------*/
 div#trainingprogram-pagina-text
@@ -661,6 +669,7 @@ input#totaal
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+    height: 55px;
     
 }
 
@@ -1156,7 +1165,12 @@ table
     color: orange;
 }
 
-
+p#coppy
+{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
 
 
 

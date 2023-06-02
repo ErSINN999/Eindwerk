@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="AestheticsWorld.css">
-    <link rel="shortcut icon" href="pics/witt.png" type="image/x-icon">
+    <link rel="shortcut icon" href="pics/AestheticsTransparant1.png" type="image/x-icon">
     <title>Aesthetic World</title>
 </head>
 <body>
@@ -26,36 +26,45 @@
         </ul>
     </nav>
    
-    <!-----------------------Contact Box---------------------->
+    <!-----------------------Training program Box---------------------->
     <div id="page">
         <div id="GROTE-TITEL">
             <div id="blok">
-                <h1 id="titel-h1">TRAINING PROGRAMMA</h1>
+                <h1 id="titel-h1">TRAINING PROGRAMMA</h1> <!--Grote titel-->
             </div>
-            <div id="wit-background">
+
+            
+            <div id="wit-background"> <!--Achter grond foto-->
                 <div id="info-blok">
                     <h1 id="info">MAAK DE BESTE FYSIEK OOIT!</h1>
                     <p id="ondertitel">PERSOONLIJKE TRAINING EN VOEDING</p>
                 <div id="trainingprogram-pagina-text">
+
+                    <!--Navigatie van training program bestaat uit 4 kolommen -->
                     <div id="nav-trainingprogram">
+
+                        <!--Kolom 1-->
                         <section id="training-kolom1">
                             <img id="foto-program12" src="pics/12-week-program.png" alt="">
                             <p id="titel-nav-program12">12 weken afstandsleren</p>
                             <a href="#P12-weken-afstandsleren"><input id="meer-informatie3" type="button" value="Meer informatie"></a>
                         </section>
                         
+                        <!--Kolom 2-->
                         <section id="training-kolom2">
                             <img id="foto-program" src="pics/voeding-program.png" alt="">
                             <p id="titel-nav-program2">voedingsprogramma</p>
                             <a href="#lijn1"><input id="meer-informatie3" type="button" value="Meer informatie"></a>
                         </section>
 
+                        <!--Kolom 3-->
                         <section id="training-kolom3">
                             <img id="foto-program" src="pics/training-program.png" alt="">
                             <p id="titel-nav-program3">trainingsprogramma</p>
                             <a href="#lijn2"><input id="meer-informatie3" type="button" value="Meer informatie"></a>
                         </section>
 
+                        <!--Kolom 4-->
                         <section id="training-kolom4">
                             <img id="foto-program" src="pics/thuis-program.png" alt="">
                             <p id="titel-nav-program4">12 weken thuistraining</p>
@@ -85,21 +94,23 @@
                                 <li id="info-programma">vraag en antwoord met de trainer</li>
                             </ul>
 
+                            <!--Prijs blok + extra vraag-->
                             <form id="berekening">
                                 <div id="extra-vraag">
                                     
                                     <input type="checkbox" id="markeer" onclick="bereken(this.form)" value="34.99">
-                                    <div id="vip">VIP LIDMAATSCHAP <span id="geld">€ 34,99</span></div>
+                                    <div id="vip">VIP LIDMAATSCHAP <span id="geld">€ 34.99</span></div>
                                     
                                 </div>
 
                                 <div id="totaal-blok">
-                                    <label for="totaal" id="eindprijs">€ 119,95</label>
+                                    <label for="totaal" id="eindprijs">€ 119.95</label>
                                     
-                                    <input id="totaal" type="button" value="KOOP NU">
+                                    <input id="totaal" type="button" onclick="koopnu(this.form)" value="KOOP NU">
                                 </div>
                             </form>
-                            
+
+                        <!--Berekenen prijs voor de extra vraag VIP-->
                             <script>
                               
                                 function bereken(f)
@@ -118,6 +129,11 @@
                                         
                                         document.getElementById('eindprijs').innerHTML = "€" + totaal ;
                                         
+                                    }
+
+                                    function koopnu (f)
+                                    {
+                                        alert("WELCOME STRIJDER! Bedankt voor jouw bestelling.")
                                     }
                             </script>
                         </section>
@@ -146,13 +162,21 @@
                                 <li id="info-programma">vraag en antwoord met de trainer</li>
                             </ul>
                            
+                            <!--Prijs blok -->
                             <div id="totaal-blok">
-                                <p id="totaalgeld-VOEDING">€ 69,95</p> 
-                                <input id="totaal" type="button" value="KOOP NU">
+                                <p id="totaalgeld-VOEDING">€ 69.95</p> 
+                                <input id="totaal" type="button" onclick="koopnu(this.form)" value="KOOP NU">
                             </div>
                             
                         </section>
                         
+                        <!--Boodschap 'KOOP NU'-->
+                        <script>
+                             function koopnu (f)
+                                    {
+                                        alert("WELCOME STRIJDER! Bedankt voor jouw bestelling.")
+                                    }
+                        </script>
                     </div>
 
                     <hr id="lijn2"> <!---DE FOCUS OP DE NAVIGATIE (TRAININGSPROGRAMMA) WORDT AAN DEZE LIJN TOEGEPAST MET LINK !--->
@@ -178,14 +202,21 @@
                                 <li id="info-programma">vraag en antwoord met de trainer</li>
                             </ul>
                            
+                            <!--Prijs blok -->
                             <div id="totaal-blok">
-                                <p id="totaalgeld-TRAININGSPROGRAMMA">€ 79,95</p> 
-                                <input id="totaal" type="button" value="KOOP NU">
+                                <p id="totaalgeld-TRAININGSPROGRAMMA">€ 79.95</p> 
+                                <input id="totaal" type="button" onclick="koopnu(this.form)" value="KOOP NU">
                             </div>
 
-                            
-                            
                         </section>
+
+                        <!--Boodschap 'KOOP NU'-->
+                        <script>
+                             function koopnu (f)
+                                    {
+                                        alert("WELCOME STRIJDER! Bedankt voor jouw bestelling.")
+                                    }
+                        </script>
                         
                     </div>
 
@@ -212,23 +243,24 @@
                                 <li id="info-programma">vraag en antwoord met de trainer</li>
                             </ul>
                             
+                            <!--Prijs blok + extra vraag-->
                             <form id="berekening">
                                 <div id="extra-vraag">
                                     
                                     <input type="checkbox" name="check" id="markeer" onclick=berekenvip(this.form) value="34.99">
-                                    <div id="vip">VIP LIDMAATSCHAP <span id="geld">€ 34,99</span></div>
-                                    
-                                    
-                                    
+                                    <div id="vip">VIP LIDMAATSCHAP <span id="geld">€ 34.99</span></div>
+                                
                                 </div>
 
                                 <div id="totaal-blok">
                                     
-                                    <label for="totaal" id="thuis-eindprijs">€ 79,95</label>
-                                    <input id="totaal" type="button" value="KOOP NU">
+                                    <label for="totaal" id="thuis-eindprijs">€ 79.95</label>
+                                    <input id="totaal" type="button" onclick="koopnu(this.form)" value="KOOP NU">
                                 </div>
                             </form>
 
+
+                        <!--Berekenen prijs + extra vraag VIP + Boodschap 'KOOP NU'-->
                             <script>
 
                               var totaal = 0;
@@ -248,18 +280,16 @@
                                             }
                                             
                                             document.getElementById('thuis-eindprijs').innerHTML = "€" + totaal;
-                                       
+                                    }
+
+                                    function koopnu (f)
+                                    {
+                                        alert("WELCOME STRIJDER! Bedankt voor jouw bestelling.")
                                     }
 
                             </script>
-                            <script>
-        
-                               
-                            </script>
                         </section>
-                        
                     </div>
-
                 </div>
                 </div>
         </div>
@@ -325,7 +355,7 @@
             <h2 id="footertext2"></h2>
         </div>
         <div id="bottom-page">
-
+            <p id="coppy">&copy; Ersin Nedret Behched</p>
         </div>
     </footer> <!------------EINDE FOOOTER------------>
 
