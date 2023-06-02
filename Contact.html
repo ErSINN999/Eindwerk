@@ -40,30 +40,34 @@
                         <img id="pullup" src="pics/pullup.jpg" alt="pullup">
                         <h3>Naam*</h3>
                         <ul id="ul-contact">
+                            <form id="form">
                             <div id="alle-li">
-                                <li class="naam">
-
-                                    <input type="text" required id="voornaam" placeholder="Voornaam">
-                                    <input type="text" id="familienaam" placeholder="Familienaam">
-                                        
-                                </li>
                                     
-                                <h3>E-mail* <span id="header-telefoon-span">Telefoonnummer</span></h3>
-                                <li class="email-gsm">
-                                    <input id="e-mail" type="email" required>
+                                    <li class="naam">
+
+                                        <input type="text" required id="voornaam" placeholder="Voornaam">
+                                        <input type="text" id="familienaam" placeholder="Familienaam">
+                                            
+                                    </li>
                                         
-                                    <input id="gsm" type="tel">
-                                </li>
-                                <h3>Hoe heb je over ons gehoord?</h3>
-                                <li class="vraag1">
-                                    <textarea name="opmerkingen" id="opmerkingen" cols="100" rows="7" ></textarea>
-                                </li>
-                                <h3>Wat kunnen we voor u doen?</h3>
-                                <li class="vraag1">
-                                    <textarea name="opmerkingen" id="opmerkingen" cols="100"  rows="15" ></textarea>
-                                </li>
-                                    <input id="verzenden" type="button" value="VERZENDEN">
+                                    <h3>E-mail* <span id="header-telefoon-span">Telefoonnummer</span></h3>
+                                    <li class="email-gsm">
+                                        <input id="e-mail" type="email" required>
+                                            
+                                        <input id="gsm" type="tel">
+                                    </li>
+                                    <h3>Hoe heb je over ons gehoord?</h3>
+                                    <li class="vraag1">
+                                        <textarea name="opmerkingen" id="opmerkingen" cols="100" rows="7" ></textarea>
+                                    </li>
+                                    <h3>Wat kunnen we voor u doen?</h3>
+                                    <li class="vraag1">
+                                        <textarea name="opmerkingen" id="opmerkingen" cols="100"  rows="15" ></textarea>
+                                    </li>
+                                    
+                                        <input id="verzenden" type="button" onclick="verzenden(this.form)" value="VERZENDEN"> 
                             </div>
+                        </form>
                         </ul>
                     </div>
                 </div>
